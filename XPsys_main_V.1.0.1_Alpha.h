@@ -51,10 +51,10 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <Arduino.h>
 #include <U8g2lib.h>
 #include <SPI.h>
-#define Bot_PinoADC 34                                        //O compilador substituirá qualquer menção de Bot_PinoADC ao valor 34 no momento da compilação.
+#define Bot_PinoADC 1                                        //O compilador substituirá qualquer menção de Bot_PinoADC ao valor 34 no momento da compilação.
 #define FontePadrao u8g2_font_5x7_tf                          //Selecione a fotne padrão de todos os menus exceto os icones
 
-U8G2_ST7920_128X64_1_SW_SPI u8g2(U8G2_R0, 18, 19, 21, 22);    //Enable, RW, RS, RESET  
+U8G2_ST7920_128X64_1_SW_SPI u8g2(U8G2_R0, 33, 32, 35, 27);    //Enable, RW, RS, RESET  
 
 //int Configura as variaveis de -32,768 a 32,767, ocupa 2 bytes (16 bits)
 int Bot_LeituraADC = 0;                                       //Variavel para Leitura da porta analogica
