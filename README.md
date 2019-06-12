@@ -13,6 +13,8 @@ NOTE: Version 1.0.1 can work on Arduino, just pay attention to the configured pi
 
 For more Info see: http://xprojetos.net/xpsys-sistema-para-esp32-com-st7920/
 
+XPsys V1.0.1: http://xprojetos.net/xpsys-versao-v1-0-1/
+
 --------------------------Portuguese-Brazilian--------------------------------------
 
 O XPsys é um sistema embarcado desenvolvido para o ESP32 com o monitor ST7920, usando a biblioteca u8g2 para execução do sistema.
@@ -24,3 +26,5 @@ construir sua estrutura.
 OBS: A versão 1.0.1 pode funcionar no Arduíno, basta prestar atenção nos pinos configurados.
 
 Para mais informações Veja: http://xprojetos.net/xpsys-sistema-para-esp32-com-st7920/
+
+XPsys V1.0.1: http://xprojetos.net/xpsys-versao-v1-0-1/
