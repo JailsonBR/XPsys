@@ -1,10 +1,10 @@
 /*
   Programa de seleção de Menu com telas, desenvolvido por JailsonBR utilizando a biblioteca u8g2 do olikraus.
    
-  PORFAVOR NÃO REMOVA NENHUMA INFORMAÇÃO DESTE CABEÇARIO, ESTE É UM CÓDIGO OPENSOURCE SOB LICENÇA DO CRIADOR
+  PORFAVOR NÃO REMOVA NENHUMA INFORMAÇÃO DESTE CABEÇALHO, ESTE É UM CÓDIGO OPENSOURCE SOB LICENÇA DO CRIADOR
    
-  Codigo adaptado por JailsonBR do site XProjetos.net em 03-06-2019, o uso deste código é livre porem deve respeitar e mante o nome do criador
-  e tambêm de quem modificou, o código está sob GNU GENERAL PUBLIC LICENSE Versão 3 (https://www.gnu.org/licenses/quick-guide-gplv3.pt-br.html)
+  Codigo adaptado por JailsonBR do site XProjetos.net em 03-06-2019, o uso deste código é livre porem deve respeitar e manter o nome do criador
+  e também de quem modificou, o código está sob GNU GENERAL PUBLIC LICENSE Versão 3 (https://www.gnu.org/licenses/quick-guide-gplv3.pt-br.html)
 
   Universal 8bit Graphics Library (https://github.com/olikraus/u8g2/)
 
@@ -51,7 +51,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <Arduino.h>
 #include <U8g2lib.h>
 #include <SPI.h>
-#define Bot_PinoADC 1                                        //O compilador substituirá qualquer menção de Bot_PinoADC ao valor 34 no momento da compilação.
+#define Bot_PinoADC 1                                        //O compilador substituirá qualquer menção de Bot_PinoADC ao valor 1 no momento da compilação.
 #define FontePadrao u8g2_font_5x7_tf                          //Selecione a fotne padrão de todos os menus exceto os icones
 
 U8G2_ST7920_128X64_1_SW_SPI u8g2(U8G2_R0, 33, 32, 35, 27);    //Enable, RW, RS, RESET  
