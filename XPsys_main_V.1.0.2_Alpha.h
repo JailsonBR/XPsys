@@ -64,7 +64,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <Arduino.h>
 #include <U8g2lib.h>
 #include <SPI.h>
-#define Bot_PinoADC 1                                         //O compilador substituirá qualquer menção de Bot_PinoADC ao valor 34 no momento da compilação.
+#define Bot_PinoADC 34                                        //O compilador substituirá qualquer menção de Bot_PinoADC ao valor 34 no momento da compilação.
 #define FontePadrao u8g2_font_5x8_tf                          //Selecione a fonte padrão de todos os menus exceto os ícones
 #define T_Teclado -2                                          //Indica que "T_Teclado" será substituído por -1 (Usado no id da tela do teclado)
 #define XP_Versao "XP:1.0.2"                                  //Versão do XPsys que é exibido no menu principal
